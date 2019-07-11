@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, html {
+    font-family: Lato;
+}
+    
+html {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.15;
+    display: block;
+}
+
+.Testimonials__parent-wrapper___1UEvz {
+    display: flex;
+    flex-direction: row;
+    padding 0 24px 24px;
+    overflow-x: auto;
+}
+
+.Testimonials__person___3fb82 {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 12px 0;
+    max-width: 400px;
+    text-align: center;
+}
