@@ -20,15 +20,26 @@ html {
 
 .Testimonials__parent-wrapper___1UEvz {
     display: flex;
-    flex-direction: row;
-    padding 0 24px 24px;
+    align-items: center;
+    min-width: 100%;
+    min-height: 200px;
     overflow-x: auto;
 }
 
 .Testimonials__person___3fb82 {
     display: flex;
     flex-direction: column;
-    margin: 48px 12px 0;
-    max-width: 400px;
+    margin: 48px;
+    min-width: 352px;
     text-align: center;
 }
+
+@media (min-width:1200px){.Testimonials__person___3fb82{margin:48px 60px 0;max-width:230px}}
+@media (max-width:480px){.Testimonials__person___3fb82{flex-direction:column;margin:48px 12px 0;max-width:inherit}}
+.Testimonials__person___3fb82:last-child{margin-bottom:48px}
+.Testimonials__person___3fb82 img{border-radius:50%;max-height:200px;max-width:200px;min-height:200px;min-width:200px;height:100%;margin:0 auto 18px;width:100%}
+.Testimonials__person___3fb82 h1{font-size:1.25rem;margin-bottom:6px;margin-top:0}
+.Testimonials__person___3fb82 h1>a{color:#666}
+.Testimonials__person___3fb82 h1>a:hover{color:#fa6900}
+.Testimonials__person___3fb82 h2{color:#666;font-size:1rem}
+.Testimonials__person___3fb82 p{font-size:15px;line-height:1.5}
