@@ -72,11 +72,6 @@ section {
     height: 88px;
 }
 
-.Testimonials__person___3fb82:first-child{width: 0px}
-
-
-
-
 @media (min-width:1200px){.Testimonials__person___3fb82{margin:0px 60px;max-width:230px}}
 @media (max-width:480px){.Testimonials__person___3fb82{flex-direction:column;margin:48px 12px 0;max-width:inherit}}
 .Testimonials__person___3fb82:last-child{max-width: 800px; margin-right: 200px;}

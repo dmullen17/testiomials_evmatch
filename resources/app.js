@@ -5,10 +5,6 @@ const initialWidth = 184.562;
 const width = window.innerWidth;
 const lowerBound = .5;
 
-//=======================================================
-//                  First Iteration                    //
-//=======================================================
-// Add a lower limit to this 
 const updateTestimonialContent = function() {
     testimonials.forEach(testimonial => { 
         const image = testimonial.querySelector('img');
