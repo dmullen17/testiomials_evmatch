@@ -4,6 +4,8 @@ A sample customer and host testimonials page for Electric Vehicle Match. The ima
 
 ## How the algorithm works
 
+You can view the full algorithm in [`app.js`](https://github.com/dmullen17/testiomials_evmatch/blob/master/resources/app.js)
+
 Variables: 
   + `testimonialsParent` - the parent `div` element that contains the testimonials. `updateTestimonialContent` is added as the callback to `scroll` events on this element.  
   + `testimonials` - all of the testimonial `div` containers
