@@ -2,16 +2,14 @@ const testimonialsParent = document.querySelector('.Testimonials__parent-wrapper
 const testimonials = document.querySelectorAll('.Testimonials__person___3fb82');
 const initialHeight = 184.562;
 const initialWidth = 184.562;
-
+const width = window.innerWidth;
+const lowerBound = .5;
 
 //=======================================================
 //                  First Iteration                    //
 //=======================================================
 // Add a lower limit to this 
 const updateTestimonialContent = function() {
-    const width = window.innerWidth;
-    const lowerBound = .5;
-    
     testimonials.forEach(testimonial => { 
         const image = testimonial.querySelector('img');
         const coords = testimonial.getBoundingClientRect();
