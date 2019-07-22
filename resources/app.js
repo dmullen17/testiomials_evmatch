@@ -22,7 +22,6 @@ const updateTestimonialContent = function() {
         if (x < width/2) {
             const percent = x/(width/2);
             const adjustedPercent = lowerBound + lowerBound * percent;
-            console.log(adjustedPercent);
             const height = initialHeight * adjustedPercent;
             image.style.height = `${height}px`;
             image.style.width = `${height}px`;
